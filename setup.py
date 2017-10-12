@@ -13,14 +13,14 @@ def get_package_version(package):
 
 
 setup(
-    name='django-iprestrict',
+    name='django-iprestrict-proxytrust',
     version=get_package_version("iprestrict"),
     description='Django app + middleware to restrict access to all or sections of a Django project by client IP ranges',
     long_description='Django app + middleware to restrict access to all or sections of a Django project by client IP ranges',
-    author='Tamas Szabo, CCG, Murdoch University',
-    author_email='devops@ccg.murdoch.edu.au',
-    url='https://github.com/muccg/django-iprestrict',
-    download_url='https://github.com/muccg/django-iprestrict/releases',
+    author='Tamas Szabo, CCG, Murdoch University; Michael Weigle',
+    author_email='devops@ccg.murdoch.edu.au; michael.weigle@gmail.com',
+    url='https://github.com/metricmike/django-iprestrict',
+    download_url='https://github.com/metricmike/django-iprestrict/releases',
     classifiers=[
         "Framework :: Django",
         "Intended Audience :: Developers",
